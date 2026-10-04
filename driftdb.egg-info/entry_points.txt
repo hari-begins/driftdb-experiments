@@ -1,0 +1,2 @@
+[console_scripts]
+driftdb = driftdb.cli:main

@@ -1,0 +1,83 @@
+[
+  {
+    "config": "static",
+    "abrupt": {
+      "missed_deadlines": 0,
+      "adaptations": 0,
+      "adaptation_cost_s": 0.0,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": null,
+      "recovery_time_queries": null,
+      "avg_latency_stable_ms": 978.2353932222221,
+      "avg_latency_drift_ms": 761.3264650487805,
+      "avg_selectivity_stable": 0.927602085579008,
+      "avg_selectivity_drift": 0.927608192470641
+    },
+    "gradual": {
+      "missed_deadlines": 0,
+      "adaptations": 0,
+      "adaptation_cost_s": 0.0,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": null,
+      "recovery_time_queries": null,
+      "avg_latency_stable_ms": 1000.5236361,
+      "avg_latency_drift_ms": 720.6578064918033,
+      "avg_selectivity_stable": 0.9276020855790079,
+      "avg_selectivity_drift": 0.9276060026338165
+    }
+  },
+  {
+    "config": "fixed_interval",
+    "abrupt": {
+      "missed_deadlines": 0,
+      "adaptations": 4,
+      "adaptation_cost_s": 67.95397901535034,
+      "false_positive_adaptations": 2,
+      "detection_latency_queries": 10,
+      "recovery_time_queries": 0,
+      "avg_latency_stable_ms": 905.13011059375,
+      "avg_latency_drift_ms": 704.7852617,
+      "avg_selectivity_stable": 0.927602085579008,
+      "avg_selectivity_drift": 0.9276146047068556
+    },
+    "gradual": {
+      "missed_deadlines": 0,
+      "adaptations": 6,
+      "adaptation_cost_s": 92.43051266670227,
+      "false_positive_adaptations": 2,
+      "detection_latency_queries": 10,
+      "recovery_time_queries": 0,
+      "avg_latency_stable_ms": 892.8359812903226,
+      "avg_latency_drift_ms": 661.0791305,
+      "avg_selectivity_stable": 0.927602085579008,
+      "avg_selectivity_drift": 0.9276080590875913
+    }
+  },
+  {
+    "config": "driftdb",
+    "abrupt": {
+      "missed_deadlines": 1,
+      "adaptations": 2,
+      "adaptation_cost_s": 19.63493251800537,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": 22,
+      "recovery_time_queries": 0,
+      "avg_latency_stable_ms": 967.3800558999999,
+      "avg_latency_drift_ms": 756.8684480243903,
+      "avg_selectivity_stable": 0.9276020855790079,
+      "avg_selectivity_drift": 0.927608192470641
+    },
+    "gradual": {
+      "missed_deadlines": 0,
+      "adaptations": 1,
+      "adaptation_cost_s": 19.85554599761963,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": 32,
+      "recovery_time_queries": 0,
+      "avg_latency_stable_ms": 964.6876295,
+      "avg_latency_drift_ms": 741.4643725,
+      "avg_selectivity_stable": 0.9276020855790079,
+      "avg_selectivity_drift": 0.9276047066743234
+    }
+  }
+]

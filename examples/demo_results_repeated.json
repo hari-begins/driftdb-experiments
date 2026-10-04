@@ -1,0 +1,188 @@
+{
+  "static": [
+    {
+      "config": "static",
+      "total_queries": 80,
+      "missed_deadlines": 2,
+      "adaptations": 0,
+      "adaptation_cost_s": 0.0,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 210.59378985000004,
+      "avg_latency_drift_ms": 127.90931047499998,
+      "wall_time_s": 50.76449513435364
+    },
+    {
+      "config": "static",
+      "total_queries": 80,
+      "missed_deadlines": 2,
+      "adaptations": 0,
+      "adaptation_cost_s": 0.0,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 198.30351210000003,
+      "avg_latency_drift_ms": 117.163271875,
+      "wall_time_s": 51.64588451385498
+    },
+    {
+      "config": "static",
+      "total_queries": 80,
+      "missed_deadlines": 1,
+      "adaptations": 0,
+      "adaptation_cost_s": 0.0,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 197.32290437499998,
+      "avg_latency_drift_ms": 115.75349589999996,
+      "wall_time_s": 52.40073013305664
+    },
+    {
+      "config": "static",
+      "total_queries": 80,
+      "missed_deadlines": 2,
+      "adaptations": 0,
+      "adaptation_cost_s": 0.0,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 211.18491407499997,
+      "avg_latency_drift_ms": 125.34000067499998,
+      "wall_time_s": 85.57994627952576
+    },
+    {
+      "config": "static",
+      "total_queries": 80,
+      "missed_deadlines": 3,
+      "adaptations": 0,
+      "adaptation_cost_s": 0.0,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 249.54170577500003,
+      "avg_latency_drift_ms": 154.66558789999996,
+      "wall_time_s": 80.17461729049683
+    }
+  ],
+  "fixed_interval": [
+    {
+      "config": "fixed_interval",
+      "total_queries": 80,
+      "missed_deadlines": 24,
+      "adaptations": 5,
+      "adaptation_cost_s": 3.807792901992798,
+      "false_positive_adaptations": 2,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 458.4235932500002,
+      "avg_latency_drift_ms": 197.00217594999998,
+      "wall_time_s": 124.15148377418518
+    },
+    {
+      "config": "fixed_interval",
+      "total_queries": 80,
+      "missed_deadlines": 10,
+      "adaptations": 5,
+      "adaptation_cost_s": 2.707953453063965,
+      "false_positive_adaptations": 2,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 318.1448137500001,
+      "avg_latency_drift_ms": 166.41961932499999,
+      "wall_time_s": 86.82669496536255
+    },
+    {
+      "config": "fixed_interval",
+      "total_queries": 80,
+      "missed_deadlines": 4,
+      "adaptations": 5,
+      "adaptation_cost_s": 2.3456215858459473,
+      "false_positive_adaptations": 2,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 221.68145217499995,
+      "avg_latency_drift_ms": 133.46220104999998,
+      "wall_time_s": 74.94179320335388
+    },
+    {
+      "config": "fixed_interval",
+      "total_queries": 80,
+      "missed_deadlines": 4,
+      "adaptations": 5,
+      "adaptation_cost_s": 2.1725833415985107,
+      "false_positive_adaptations": 2,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 233.95504392499998,
+      "avg_latency_drift_ms": 132.15150535,
+      "wall_time_s": 72.33655381202698
+    },
+    {
+      "config": "fixed_interval",
+      "total_queries": 80,
+      "missed_deadlines": 5,
+      "adaptations": 5,
+      "adaptation_cost_s": 2.572366714477539,
+      "false_positive_adaptations": 2,
+      "detection_latency_queries": null,
+      "avg_latency_stable_ms": 250.12406634999994,
+      "avg_latency_drift_ms": 119.37518882499997,
+      "wall_time_s": 79.27871990203857
+    }
+  ],
+  "driftdb": [
+    {
+      "config": "driftdb",
+      "total_queries": 80,
+      "missed_deadlines": 6,
+      "adaptations": 1,
+      "adaptation_cost_s": 0.7341341972351074,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": 34,
+      "avg_latency_stable_ms": 252.9420937999999,
+      "avg_latency_drift_ms": 122.97328652499996,
+      "wall_time_s": 73.15143918991089
+    },
+    {
+      "config": "driftdb",
+      "total_queries": 80,
+      "missed_deadlines": 3,
+      "adaptations": 1,
+      "adaptation_cost_s": 0.6816151142120361,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": 33,
+      "avg_latency_stable_ms": 220.44356165000005,
+      "avg_latency_drift_ms": 119.04226245000004,
+      "wall_time_s": 66.75258255004883
+    },
+    {
+      "config": "driftdb",
+      "total_queries": 80,
+      "missed_deadlines": 2,
+      "adaptations": 1,
+      "adaptation_cost_s": 0.5135054588317871,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": 33,
+      "avg_latency_stable_ms": 193.22145714999994,
+      "avg_latency_drift_ms": 113.034882425,
+      "wall_time_s": 58.57123112678528
+    },
+    {
+      "config": "driftdb",
+      "total_queries": 80,
+      "missed_deadlines": 2,
+      "adaptations": 1,
+      "adaptation_cost_s": 0.5706882476806641,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": 33,
+      "avg_latency_stable_ms": 197.81719397499987,
+      "avg_latency_drift_ms": 114.29172745000002,
+      "wall_time_s": 53.344058990478516
+    },
+    {
+      "config": "driftdb",
+      "total_queries": 80,
+      "missed_deadlines": 2,
+      "adaptations": 1,
+      "adaptation_cost_s": 0.6001765727996826,
+      "false_positive_adaptations": 0,
+      "detection_latency_queries": 33,
+      "avg_latency_stable_ms": 205.29003077500002,
+      "avg_latency_drift_ms": 122.63729987500002,
+      "wall_time_s": 60.15198731422424
+    }
+  ]
+}

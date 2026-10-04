@@ -1,0 +1,38 @@
+[
+  {
+    "config": "static",
+    "total_queries": 80,
+    "missed_deadlines": 7,
+    "adaptations": 0,
+    "adaptation_cost_s": 0.0,
+    "false_positive_adaptations": 0,
+    "detection_latency_queries": null,
+    "avg_latency_stable_ms": 303.079035225,
+    "avg_latency_drift_ms": 178.2964211,
+    "wall_time_s": 34.78452444076538
+  },
+  {
+    "config": "fixed_interval",
+    "total_queries": 80,
+    "missed_deadlines": 7,
+    "adaptations": 5,
+    "adaptation_cost_s": 3.357649803161621,
+    "false_positive_adaptations": 2,
+    "detection_latency_queries": null,
+    "avg_latency_stable_ms": 319.8782175,
+    "avg_latency_drift_ms": 200.49814429999998,
+    "wall_time_s": 39.02525448799133
+  },
+  {
+    "config": "driftdb",
+    "total_queries": 80,
+    "missed_deadlines": 9,
+    "adaptations": 1,
+    "adaptation_cost_s": 0.7977359294891357,
+    "false_positive_adaptations": 0,
+    "detection_latency_queries": 24,
+    "avg_latency_stable_ms": 341.130044175,
+    "avg_latency_drift_ms": 221.043357425,
+    "wall_time_s": 38.46534061431885
+  }
+]
